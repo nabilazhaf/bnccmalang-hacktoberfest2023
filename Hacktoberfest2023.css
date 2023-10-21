@@ -92,6 +92,9 @@ p{
 
 /* NAV BAR START */
 #topBox{
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -573,4 +576,10 @@ p{
     }
 }
 
-
+/* Nathan Personal CSS */
+.nathanCard {
+    color: white;
+    background-image: url("./Images/200w.gif");
+    background-position: center;
+    background-size: cover;
+}
